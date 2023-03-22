@@ -14,6 +14,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  
 }
 
 #wrapper {
@@ -24,28 +25,3 @@ body {
   padding: 0;
 }
 
-.sidebar{
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(228, 228, 228);
-
-  border-right: 0.1rem solid gray;
-}
-
-.sidebar ul {
-  padding: 0;
-}
-
-.sidebar a {
-  text-decoration: none;
-  padding: 1rem;
-}
-
-.sidebar li {
-  padding: 1rem;
-  list-style: none;
-}
-
-.sidebar-heading{
-  padding: 1rem;
-}
